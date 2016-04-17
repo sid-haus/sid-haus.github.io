@@ -1,3 +1,4 @@
+
 body {
     background-color: lightblue;
 }
@@ -6,3 +7,86 @@ h1 {
     color: navy;
     margin-left: 20px;
 }
+navbarOne {
+  list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+/* Rectangle 11: */
+background: #616266;
+
+
+/* received_1694649244117842-02: */
+
+
+/* Rectangle 1: */
+background: #FFFFFF;
+border: 1px solid #979797;
+
+
+/* HomeButtons/DownButton: */
+
+
+/* HomeButtons/sid-haus: */
+font-family: AvenirNext-Bold;
+font-size: 64px;
+color: #343232;
+
+
+/* button bg: */
+background: rgba(0,0,0,0.75);
+border-radius: 2px;
+/* about: */
+font-family: .SFNSDisplay-Bold;
+font-size: 25.81px;
+color: #FFFFFF;
+letter-spacing: 0.5px;
+
+
+/* button bg: */
+background: rgba(0,0,0,0.40);
+border-radius: 2px;
+/* articles: */
+font-family: .SFNSDisplay-Bold;
+font-size: 25.81px;
+color: #FFFFFF;
+letter-spacing: 0.5px;
+
+
+/* button bg: */
+background: rgba(0,0,0,0.55);
+border-radius: 2px;
+/* projects: */
+font-family: .SFNSDisplay-Bold;
+font-size: 25.81px;
+color: #FFFFFF;
+letter-spacing: 0.5px;
+
+
+/* HomeButtons/Twitter: */
+background: #449EC9;
+
+
+/* HomeButtons/linkedIn i1: */
+background: #0B5B80;
+
+
+/* Scroll Down.: */
+font-family: CenturyGothic-Bold;
+font-size: 36px;
+color: #FFFFFF;
+
+
+/* is a rockstar. : */
+font-family: CenturyGothic-Bold;
+font-size: 120px;
+color: #FFFFFF;
+text-shadow: 0px 2px 22px rgba(0,0,0,0.50);
+
+
+/* SIDDHESH DABHOLKAR: */
+font-family: AvenirNext-Bold;
+font-size: 100px;
+color: #F17474;
+text-shadow: 0px 0px 20px rgba(0,0,0,0.50);
