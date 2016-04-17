@@ -1,16 +1,80 @@
 
 body {
-    background-color: lightblue;
+    background-color: #616266;
+}
+
+p {
+
+
 }
 
 h1 {
-    color: navy;
-    margin-left: 20px;
+
 }
-navbarOne {
+
+a {
+    display: block;
+    padding: 10px;
+    background-color: #dddddd;
+}
+
+
+li {
+    float: left;
+}
+
+ul {
+  list-style-type: none;
+      margin: 0;
+      padding: 0;
+
+}
+.imageOne.resize{
+    width:10.81px; /* you can use % */
+    height: auto;
+}
+
+.navBarOne {
+  position: fixed;
   list-style-type: none;
    margin: 0;
    padding: 0;
+   font-family: AvenirNext-Bold;
+   font-size: 25.81px;
+   color: #FFFFFF;
+   letter-spacing: 0.5px;
+   background: rgba(0,0,0,0.55);
+   border-radius: 0px;
+}
+
+#SIDDHESHTITLE{
+font-family: AvenirNext-Bold;
+font-size: 100px;
+color: #F17474;
+text-shadow: 0px 0px 20px rgba(0,0,0,0.50);
+}
+
+.pageOne{
+
+}
+
+.pageTwo{
+
+}
+
+.pageThree{
+
+}
+
+.pageFour {
+
+}
+
+#isa{
+  font-family: CenturyGothic-Bold;
+font-size: 120px;
+color: #FFFFFF;
+text-shadow: 0px 2px 22px rgba(0,0,0,0.50);
 }
 
 /* Rectangle 11: */
@@ -76,17 +140,3 @@ background: #0B5B80;
 font-family: CenturyGothic-Bold;
 font-size: 36px;
 color: #FFFFFF;
-
-
-/* is a rockstar. : */
-font-family: CenturyGothic-Bold;
-font-size: 120px;
-color: #FFFFFF;
-text-shadow: 0px 2px 22px rgba(0,0,0,0.50);
-
-
-/* SIDDHESH DABHOLKAR: */
-font-family: AvenirNext-Bold;
-font-size: 100px;
-color: #F17474;
-text-shadow: 0px 0px 20px rgba(0,0,0,0.50);
