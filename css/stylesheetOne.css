@@ -13,7 +13,9 @@ h1 {
 }
 
 ul {
-
+  list-style-type: none;
+      margin: 0;
+      padding: 0;
 }
 
 li {
@@ -21,6 +23,9 @@ li {
 }
 
 .navBarOne {
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
   position:fixed;
   width: 100%;
   top: 0;
@@ -35,9 +40,6 @@ li {
    letter-spacing: 0.5px;
    background: rgba(0,0,0,0.55);
    border-radius: 0px;
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
    overflow: hidden;
 }
 
@@ -45,26 +47,36 @@ li {
     display: block;
     color: white;
     text-align: center;
-    padding: 8px 16px;
+    padding: 5px 16px;
     text-decoration: none;
 }
 
-.navBarOne a:hover {
-    background-color: #111;
+#sidhaus{
+  font-family: AvenirNext-Bold;
+  color: #F17474;
 }
 
-ul {
-  list-style-type: none;
-      margin: 0;
-      padding: 0;
+#sidhaustab a:hover{
+  background-color: #303030;
 }
 
+#abouttab a:hover{
+background-color: rgba(10,165,114,0.81);
+}
 
+#projectstab a:hover{
+/* button bg: */
+background-color: rgba(48,149,213,0.86);
+}
+
+#articlestab a:hover{
+background-color: rgba(255,113,82,0.95);
+}
 
 #SIDDHESHTITLE{
 font-family: AvenirNext-Bold;
 font-size: 40px;
-color: #F17474;
+color: #96EDB0;
 text-shadow: 0px 0px 20px rgba(0,0,0,0.50);
 }
 
