@@ -74,9 +74,16 @@ background-color: rgba(255,113,82,0.95);
 }
 
 .pageOne{
+  position: absolute;
   width: 100%;
-  height: 100%;
+  height: auto;;
   min-height: 1000px;
+  background: url("../images/Homepage_background.jpg") top left;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-style: none;
+  border-left: 0;
+  border-top: 0;
 }
 
 #SIDDHESHTITLE{
