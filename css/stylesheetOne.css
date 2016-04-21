@@ -57,7 +57,8 @@ li {
 }
 
 #sidhaustab a:hover{
-  background-color: #303030;
+  background-color: #07C1FF;
+  color: #FFFFFF;
 }
 
 #abouttab a:hover{
@@ -73,17 +74,27 @@ background-color: rgba(48,149,213,0.86);
 background-color: rgba(255,113,82,0.95);
 }
 
+#resumestab {
+background-color: #303030;
+}
+
+#resumestab a:hover{
+background-color: #7F00FF;
+}
+
 .pageOne{
   position: absolute;
   width: 100%;
   height: auto;;
   min-height: 1000px;
+  /*
   background: url("../images/Homepage_background.jpg") top left;
   background-size: 100%;
   background-repeat: no-repeat;
   border-style: none;
   border-left: 0;
   border-top: 0;
+  */
 }
 
 #SIDDHESHTITLE{
