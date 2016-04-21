@@ -2,13 +2,13 @@ $ColorBackground: #616266;
 $ColorNavBar: #FFFFFF;
 $ColorNavBarBG: rgba(0,0,0,0.55);
 $ColorRegText: ;
-$Color1sid_haus: ;
-$Color2sid_haus: ;
+$Color1sid_haus: #F17474;
+$Color2sid_haus: #07C1FF;
 $myString: "back up";
-$FontPrimary: AvenirNext-Bold;
+$FontFacePrimary: AvenirNext-Bold;
 $SizeFontPrimary: ;
-$myMargin: 0px auto;
-$myWidth: 100%;
+$MarginBasic: 0px auto;
+$WidthBasic: 100%;
 
 
 body {
@@ -36,11 +36,11 @@ li {
 
 .navBarOne {
     position:fixed;
-    width: 100%;
+    width: $WidthBasic;
     top: 0;
     left: 0;
     z-index:999;
-    font-family: AvenirNext-Bold;
+    font-family: $FontFacePrimary;
     font-size: 25.81px;
     color: $ColorNavBar;
     letter-spacing: 0.5px;
@@ -59,11 +59,11 @@ li {
 
 
 #sidhaus {
-  font-family: AvenirNext-Bold;
-  color: #F17474;
+  font-family: $FontFacePrimary;
+  color: $Color1sid_haus;
 
     a:hover {
-      background-color: #07C1FF;
+      background-color: $Color2sid_haus;
       color: #FFFFFF;
     }
 }
