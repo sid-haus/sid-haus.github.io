@@ -13,6 +13,18 @@ $SizeFontSecond: 50px;
 $MarginBasic: 0px auto;
 $WidthBasic: 100%;
 
+@mixin spaPages {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  min-height: 1000px;
+}
+
+@mixin textOnPage1{
+  font-family: $FontFaceSecondary;
+  color: $ColorRegText;
+  text-shadow: 0px 2px 22px rgba(0,0,0,0.50);
+}
 
 body {
     background-color: $ColorBackground;
@@ -99,10 +111,7 @@ li {
 
 
 .pageOne {
-    position: absolute;
-    width: 100%;
-    height: auto;
-    min-height: 1000px;
+    @include spaPages;
     /*
     background: url("../images/Homepage_background.jpg") top left;
     background-size: 100%;
@@ -123,30 +132,26 @@ li {
 }
 
 #isa{
-    font-family: $FontFaceSecondary;
+    @include textOnPage1;
     font-size: $SizeFontSecond;
-    color: $ColorRegText;
-    text-shadow: 0px 2px 22px rgba(0,0,0,0.50);
     text-align: center;
 }
 
+#changin{
+    @include textOnPage1;
+    font-size: $SizeFontSecond;
+    text-align: center;
+    padding-top: 10px;
+}
+
 .pageTwo{
-    position: absolute;
-    width: 100%;
-    height: auto;
-    min-height: 1000px;
+    @include spaPages;
 }
 
 .pageThree{
-    position: absolute;
-    width: 100%;
-    height: auto;
-    min-height: 1000px;
+    @include spaPages;
 }
 
 .pageFour {
-    position: absolute;
-    width: 100%;
-    height: auto;
-    min-height: 1000px;
+    @include spaPages;
 }

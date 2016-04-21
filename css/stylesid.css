@@ -1,0 +1,108 @@
+body {
+  background-color: #616266; }
+
+ul {
+  list-style-type: none;
+  margin: 0px auto;
+  padding: 0; }
+
+li {
+  float: left; }
+
+.navBarOne {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  font-family: AvenirNext-Bold;
+  font-size: 25.81px;
+  color: #FFFFFF;
+  letter-spacing: 0.5px;
+  background: rgba(0, 0, 0, 0.55);
+  border-radius: 0px;
+  overflow: hidden; }
+  .navBarOne a {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none; }
+
+#sidhaus {
+  font-family: AvenirNext-Bold;
+  color: #F17474; }
+  #sidhaus a:hover {
+    background-color: #07C1FF;
+    color: #FFFFFF; }
+
+#abouttab a:hover {
+  background-color: rgba(10, 165, 114, 0.81); }
+
+#projectstab a:hover {
+  background-color: rgba(48, 149, 213, 0.86); }
+
+#articlestab a:hover {
+  background-color: rgba(255, 113, 82, 0.95); }
+
+#resumestab {
+  background-color: #303030; }
+  #resumestab a:hover {
+    background-color: #7F00FF; }
+
+.pageOne {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  min-height: 1000px;
+  /*
+  background: url("../images/Homepage_background.jpg") top left;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-style: none;
+  border-left: 0;
+  border-top: 0;
+  */ }
+
+#SIDDHESHTITLE {
+  font-family: AvenirNext-Bold;
+  font-size: 80px;
+  text-align: center;
+  color: #96EDB0;
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  padding-top: 20px; }
+
+#isa {
+  font-family: CenturyGothic-Bold;
+  color: #FFFFFF;
+  text-shadow: 0px 2px 22px rgba(0, 0, 0, 0.5);
+  font-size: 50px;
+  text-align: center; }
+
+#changin {
+  font-family: CenturyGothic-Bold;
+  color: #FFFFFF;
+  text-shadow: 0px 2px 22px rgba(0, 0, 0, 0.5);
+  font-size: 50px;
+  text-align: center;
+  padding-top: 10px; }
+
+.pageTwo {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  min-height: 1000px; }
+
+.pageThree {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  min-height: 1000px; }
+
+.pageFour {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  min-height: 1000px; }
+
+/*# sourceMappingURL=stylesid.css.map */
