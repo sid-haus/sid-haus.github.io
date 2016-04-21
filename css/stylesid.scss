@@ -1,12 +1,15 @@
 $ColorBackground: #616266;
 $ColorNavBar: #FFFFFF;
 $ColorNavBarBG: rgba(0,0,0,0.55);
-$ColorRegText: ;
+$ColorRegText: #FFFFFF;
 $Color1sid_haus: #F17474;
 $Color2sid_haus: #07C1FF;
+$ColorSIDDHESHTITLE: #96EDB0;
 $myString: "back up";
 $FontFacePrimary: AvenirNext-Bold;
-$SizeFontPrimary: ;
+$SizeFontPrimary: 80px;
+$FontFaceSecondary: CenturyGothic-Bold;
+$SizeFontSecond: 50px;
 $MarginBasic: 0px auto;
 $WidthBasic: 100%;
 
@@ -26,7 +29,7 @@ h1 {
 
 ul {
   list-style-type: none;
-      margin: 0;
+      margin: $MarginBasic;
       padding: 0;
 }
 
@@ -49,45 +52,52 @@ li {
     overflow: hidden;
 
       a {
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 5px 16px;
-      text-decoration: none;
+        display: block;
+        color: $ColorRegText;
+        text-align: center;
+        padding: 5px 16px;
+        text-decoration: none;
       }
 }
 
 
 #sidhaus {
-  font-family: $FontFacePrimary;
-  color: $Color1sid_haus;
+    font-family: $FontFacePrimary;
+    color: $Color1sid_haus;
 
-    a:hover {
-      background-color: $Color2sid_haus;
-      color: #FFFFFF;
-    }
+      a:hover {
+        background-color: $Color2sid_haus;
+        color: $ColorRegText;
+      }
 }
 
-#abouttab a:hover {
-background-color: rgba(10,165,114,0.81);
+#abouttab {
+      a:hover {
+        background-color: rgba(10,165,114,0.81);
+      }
 }
 
-#projectstab a:hover{
-/* button bg: */
-background-color: rgba(48,149,213,0.86);
+#projectstab {
+      a:hover {
+        background-color: rgba(48,149,213,0.86);
+      }
 }
 
-#articlestab a:hover{
-background-color: rgba(255,113,82,0.95);
+
+#articlestab {
+      a:hover {
+        background-color: rgba(255,113,82,0.95);
+      }
 }
 
 #resumestab {
-background-color: #303030;
+    background-color: #303030;
+      a:hover {
+        background-color: #7F00FF;
+      }
 }
 
-#resumestab a:hover{
-background-color: #7F00FF;
-}
+
 
 .pageOne{
   position: absolute;
@@ -105,20 +115,20 @@ background-color: #7F00FF;
 }
 
 #SIDDHESHTITLE{
-font-family: AvenirNext-Bold;
-font-size: 80px;
-text-align: center;
-color: #96EDB0;
-text-shadow: 0px 0px 20px rgba(0,0,0,0.50);
-padding-top: 20px;
+  font-family: $FontFacePrimary;
+  font-size: $SizeFontPrimary;
+  text-align: center;
+  color: ;
+  text-shadow: 0px 0px 20px rgba(0,0,0,0.50);
+  padding-top: 20px;
 }
 
 #isa{
-  font-family: CenturyGothic-Bold;
-font-size: 50px;
-color: #FFFFFF;
-text-shadow: 0px 2px 22px rgba(0,0,0,0.50);
-text-align: center;
+  font-family: $FontFaceSecondary;
+  font-size: $SizeFontSecond;
+  color: $ColorRegText;
+  text-shadow: 0px 2px 22px rgba(0,0,0,0.50);
+  text-align: center;
 }
 
 .pageTwo{
