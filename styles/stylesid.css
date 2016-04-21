@@ -32,9 +32,11 @@ li {
 #sidhaus {
   font-family: AvenirNext-Bold;
   color: #F17474; }
-  #sidhaus a:hover {
-    background-color: #07C1FF;
-    color: #FFFFFF; }
+
+#sidhaustab a:hover {
+  background-color: #07C1FF;
+  color: #FFFFFF;
+}
 
 #abouttab a:hover {
   background-color: rgba(10, 165, 114, 0.81); }

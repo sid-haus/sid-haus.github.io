@@ -76,10 +76,12 @@ li {
 #sidhaus {
     font-family: $FontFacePrimary;
     color: $Color1sid_haus;
+}
 
+#sidhaustab {
       a:hover {
-        background-color: $Color2sid_haus;
-        color: $ColorRegText;
+        background-color: #07C1FF;
+        color: #FFFFFF;
       }
 }
 
