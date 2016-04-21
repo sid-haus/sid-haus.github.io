@@ -1,17 +1,18 @@
-$myColorBackground: #616266;
-$myColorNavBar: #FFFFFF;
-
-$myColorRegText: ;
-$mysid_hausColor1: ;
-$mysid_hausColor2: ;
+$ColorBackground: #616266;
+$ColorNavBar: #FFFFFF;
+$ColorNavBarBG: rgba(0,0,0,0.55);
+$ColorRegText: ;
+$Color1sid_haus: ;
+$Color2sid_haus: ;
 $myString: "back up";
-$myFontSize: 13px;
+$FontPrimary: AvenirNext-Bold;
+$SizeFontPrimary: ;
 $myMargin: 0px auto;
 $myWidth: 100%;
 
 
 body {
-    background-color: $myColorBackground;
+    background-color: $ColorBackground;
 }
 
 p {
@@ -41,9 +42,9 @@ li {
     z-index:999;
     font-family: AvenirNext-Bold;
     font-size: 25.81px;
-    color: #FFFFFF;
+    color: $ColorNavBar;
     letter-spacing: 0.5px;
-    background: rgba(0,0,0,0.55);
+    background: $ColorNavBarBG;
     border-radius: 0px;
     overflow: hidden;
 
