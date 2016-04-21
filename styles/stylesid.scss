@@ -31,21 +31,20 @@ html {
 
 body {
     height:500% !important;width:100% !important; margin:0px; padding:0px;
-    background-color: $ColorBackground;
-
 }
 
 .page {
     height:20% !important; width:100% !important;
 }
 
-p {
-
-
+h1 {
+  font-family: $FontFacePrimary;
+  font-size: 70px;
 }
 
-h1 {
-
+p {
+  font-family: $FontFaceSecondary;
+  font-size: 40px;
 }
 
 ul {
@@ -122,6 +121,7 @@ li {
 
 #pageOne {
     @include spaPages;
+    background-color: $ColorBackground;
     /*
     background: url("../images/Homepage_background.jpg") top left;
     background-size: 100%;
