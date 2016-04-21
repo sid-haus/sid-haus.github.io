@@ -1,4 +1,4 @@
-$ColorBackground: #616266;
+$ColorBackground: #C71032;
 $ColorNavBar: #FFFFFF;
 $ColorNavBarBG: rgba(0,0,0,0.55);
 $ColorRegText: #FFFFFF;
@@ -14,7 +14,6 @@ $MarginBasic: 0px auto;
 $WidthBasic: 100%;
 
 @mixin spaPages {
-  position: absolute;
   width: 100%;
   height: auto;
   min-height: 1000px;
@@ -26,8 +25,18 @@ $WidthBasic: 100%;
   text-shadow: 0px 2px 22px rgba(0,0,0,0.50);
 }
 
+html {
+    height:100% !important;width:100% !important; margin:0px; padding:0px;
+}
+
 body {
+    height:500% !important;width:100% !important; margin:0px; padding:0px;
     background-color: $ColorBackground;
+
+}
+
+.page {
+    height:20% !important; width:100% !important;
 }
 
 p {
@@ -105,14 +114,13 @@ li {
 }
 
 #resumestab {
-    background-color: #303030;
       a:hover {
         background-color: #7F00FF;
       }
 }
 
 
-.pageOne {
+#pageOne {
     @include spaPages;
     /*
     background: url("../images/Homepage_background.jpg") top left;
@@ -124,36 +132,39 @@ li {
     */
 }
 
-#SIDDHESHTITLE{
-    font-family: $FontFacePrimary;
-    font-size: $SizeFontPrimary;
-    text-align: center;
-    color: $ColorSIDDHESHTITLE;
-    text-shadow: 0px 0px 20px rgba(0,0,0,0.50);
-    padding-top: 20px;
-}
+    #SIDDHESHTITLE{
+        font-family: $FontFacePrimary;
+        font-size: $SizeFontPrimary;
+        text-align: center;
+        color: $ColorSIDDHESHTITLE;
+        text-shadow: 0px 0px 20px rgba(0,0,0,0.50);
+        padding-top: 20px;
+    }
 
-#isa{
-    @include textOnPage1;
-    font-size: $SizeFontSecond;
-    text-align: center;
-}
+    #isa{
+        @include textOnPage1;
+        font-size: $SizeFontSecond;
+        text-align: center;
+    }
 
-#changin{
-    @include textOnPage1;
-    font-size: $SizeFontSecond;
-    text-align: center;
-    padding-top: 10px;
-}
+    #changin{
+        @include textOnPage1;
+        font-size: $SizeFontSecond;
+        text-align: center;
+        padding-top: 10px;
+    }
 
-.pageTwo{
+#pageTwo{
     @include spaPages;
+    text-align: center;
 }
 
-.pageThree{
+#pageThree{
     @include spaPages;
+    text-align: center;
 }
 
-.pageFour {
+#pageFour {
     @include spaPages;
+    text-align: center;
 }
