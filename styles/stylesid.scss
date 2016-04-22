@@ -9,6 +9,7 @@ $myString: "back up";
 $FontFacePrimary: AvenirNext-Bold;
 $SizeFontPrimary: 100px;
 $FontFaceSecondary: CenturyGothic-Bold;
+$FontFaceThird: AvenirNext;
 $SizeFontSecond: 50px;
 $MarginBasic: 0px auto;
 $WidthBasic: 100%;
@@ -44,16 +45,16 @@ h1 {
 }
 
 p {
-  font-family: $FontFaceSecondary;
-  font-size: 40px;
+  font-family: $FontFaceThird;
+  font-size: 20px;
 }
 
 ul {
-  
+
 }
 
-li {
-    float: left;
+li{
+  
 }
 
 .navBarOne {
@@ -70,9 +71,12 @@ li {
     border-radius: 0px;
     overflow: hidden;
       ul {
-      list-style-type: none;
+        list-style-type: none;
           margin: $MarginBasic;
           padding: 0;
+        }
+        li {
+            float: left;
         }
       a {
         display: block;
@@ -167,9 +171,9 @@ li {
       color: #000000;
     }
     p {
-      text-align: left;
       color: #000000;
     }
+    ol{}
 }
 
 #pageThree{

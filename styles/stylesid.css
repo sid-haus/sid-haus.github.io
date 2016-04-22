@@ -20,16 +20,8 @@ h1 {
   font-size: 70px; }
 
 p {
-  font-family: CenturyGothic-Bold;
-  font-size: 40px; }
-
-ul {
-  list-style-type: none;
-  margin: 0px auto;
-  padding: 0; }
-
-li {
-  float: left; }
+  font-family: AvenirNext;
+  font-size: 20px; }
 
 .navBarOne {
   position: fixed;
@@ -44,6 +36,12 @@ li {
   background: rgba(0, 0, 0, 0.55);
   border-radius: 0px;
   overflow: hidden; }
+  .navBarOne ul {
+    list-style-type: none;
+    margin: 0px auto;
+    padding: 0; }
+  .navBarOne li {
+    float: left; }
   .navBarOne a {
     display: block;
     color: #FFFFFF;
@@ -117,7 +115,6 @@ li {
     text-align: center;
     color: #000000; }
   #pageTwo p {
-    text-align: left;
     color: #000000; }
 
 #pageThree {
