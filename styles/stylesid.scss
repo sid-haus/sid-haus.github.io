@@ -7,7 +7,7 @@ $Color2sid_haus: #07C1FF;
 $ColorSIDDHESHTITLE: #96EDB0;
 $myString: "back up";
 $FontFacePrimary: AvenirNext-Bold;
-$SizeFontPrimary: 80px;
+$SizeFontPrimary: 100px;
 $FontFaceSecondary: CenturyGothic-Bold;
 $SizeFontSecond: 50px;
 $MarginBasic: 0px auto;
@@ -31,6 +31,7 @@ html {
 
 body {
     height:500% !important;width:100% !important; margin:0px; padding:0px;
+    background-color: $ColorBackground;
 }
 
 .page {
@@ -48,9 +49,7 @@ p {
 }
 
 ul {
-  list-style-type: none;
-      margin: $MarginBasic;
-      padding: 0;
+  
 }
 
 li {
@@ -70,7 +69,11 @@ li {
     background: $ColorNavBarBG;
     border-radius: 0px;
     overflow: hidden;
-
+      ul {
+      list-style-type: none;
+          margin: $MarginBasic;
+          padding: 0;
+        }
       a {
         display: block;
         color: $ColorRegText;
@@ -133,12 +136,14 @@ li {
 }
 
     #SIDDHESHTITLE{
+      p {
         font-family: $FontFacePrimary;
         font-size: $SizeFontPrimary;
         text-align: center;
         color: $ColorSIDDHESHTITLE;
         text-shadow: 0px 0px 20px rgba(0,0,0,0.50);
         padding-top: 20px;
+      }
     }
 
     #isa{
@@ -156,15 +161,25 @@ li {
 
 #pageTwo{
     @include spaPages;
-    text-align: center;
+    background-color: #FFFFFF;
+    h1 {
+      text-align: center;
+      color: #000000;
+    }
+    p {
+      text-align: left;
+      color: #000000;
+    }
 }
 
 #pageThree{
     @include spaPages;
     text-align: center;
+    background-color: #08A735;
 }
 
 #pageFour {
     @include spaPages;
     text-align: center;
+    background-color: #616266;
 }

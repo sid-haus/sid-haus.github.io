@@ -15,6 +15,14 @@ body {
   height: 20% !important;
   width: 100% !important; }
 
+h1 {
+  font-family: AvenirNext-Bold;
+  font-size: 70px; }
+
+p {
+  font-family: CenturyGothic-Bold;
+  font-size: 40px; }
+
 ul {
   list-style-type: none;
   margin: 0px auto;
@@ -67,6 +75,7 @@ li {
   width: 100%;
   height: auto;
   min-height: 1000px;
+  background-color: #C71032;
   /*
   background: url("../images/Homepage_background.jpg") top left;
   background-size: 100%;
@@ -76,9 +85,9 @@ li {
   border-top: 0;
   */ }
 
-#SIDDHESHTITLE {
+#SIDDHESHTITLE p {
   font-family: AvenirNext-Bold;
-  font-size: 80px;
+  font-size: 100px;
   text-align: center;
   color: #96EDB0;
   text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
@@ -103,18 +112,26 @@ li {
   width: 100%;
   height: auto;
   min-height: 1000px;
-  text-align: center; }
+  background-color: #FFFFFF; }
+  #pageTwo h1 {
+    text-align: center;
+    color: #000000; }
+  #pageTwo p {
+    text-align: left;
+    color: #000000; }
 
 #pageThree {
   width: 100%;
   height: auto;
   min-height: 1000px;
-  text-align: center; }
+  text-align: center;
+  background-color: #08A735; }
 
 #pageFour {
   width: 100%;
   height: auto;
   min-height: 1000px;
-  text-align: center; }
+  text-align: center;
+  background-color: #616266; }
 
 /*# sourceMappingURL=stylesid.css.map */
